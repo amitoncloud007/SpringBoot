@@ -2,7 +2,7 @@ node {
     def app
     
     stage ‘checkout’{
-        git url:’https://github.com/amitoncloud007/SpringBoot.git'
+        git url:’github.com/amitoncloud007/SpringBoot.git'
 }
     
     stage ‘Maven build’{
